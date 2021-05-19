@@ -13,8 +13,13 @@ buildscript {
 }
 
 android {
-    lintOptions {
-        abortOnError false
+    buildTypes {
+        debug {
+            lintOptions {
+                checkReleaseBuilds false
+                abortOnError false
+            }
+        }
     }
 }
 

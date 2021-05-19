@@ -12,17 +12,6 @@ buildscript {
     }
 }
 
-android {
-    buildTypes {
-        debug {
-            lintOptions {
-                checkReleaseBuilds false
-                abortOnError false
-            }
-        }
-    }
-}
-
 allprojects {
     repositories {
         google()

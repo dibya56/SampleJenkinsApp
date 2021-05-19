@@ -20,9 +20,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            zipAlign true
+            signingConfig signingConfigs.release
         }
         debug {
-            zipAlignEnabled true
+            zipAlign true
         }
     }
     compileOptions {

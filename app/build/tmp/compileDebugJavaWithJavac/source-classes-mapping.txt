@@ -1,0 +1,4 @@
+com/example/samplejenkinsapp/BuildConfig.java
+ com.example.samplejenkinsapp.BuildConfig
+com/example/samplejenkinsapp/MainActivity.java
+ com.example.samplejenkinsapp.MainActivity
